@@ -2,12 +2,12 @@
 
 function entradaA() {
    
-    return trim(fgets(STDIN)); 
+    return trim(fgets(STDIN)); // ler a entrada e higieniza
 }
 
 function entradaB() {
    
-    return (int)trim(fgets(STDIN));
+    return (int)trim(fgets(STDIN)); // ler a entrada e higieniza e converte para um numero inteiro
 }
 
 function buscarResto(string $A, int $B) {
